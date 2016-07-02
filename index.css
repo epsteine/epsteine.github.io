@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Helvetica;
+}
+
+.about {
+border: 4px solid black;
+float: left;
+text-decoration: none;
+margin: 5%;
+
+}
+
+.education {
+
+}
+
+.work {
+
+}
+
+.interests {
+
+}
