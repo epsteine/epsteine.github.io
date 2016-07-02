@@ -1,14 +1,15 @@
 * {
   box-sizing: border-box;
-  margin: 20px;
+  margin: 0;
   font-family: 'Raleway', sans-serif;;
   margin-left: 2%;
+  margin-top: 5%;
   background-color: #efeff5;
 }
 
 h1 {
   text-align: center;
-  font-size: 70px;
+  font-size: 60px;
   color: #44446f;
   width: 91%;
 }
@@ -17,7 +18,7 @@ border: 4px solid #44446f;
 border-radius: 5%;
 padding: 30px;
 margin: 1%;
-margin-top: 10%;
+margin-top: 15%;
 width: 22%;
 float: left;
 text-decoration: none;
