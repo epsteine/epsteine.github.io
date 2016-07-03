@@ -11,14 +11,14 @@ body {
   background-image: url("https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/35071_923599786742_7995774_n.jpg?oh=2b8987634be25507e51cf463e0ae5d40&oe=57F80DBA");
   background-repeat: no-repeat;;
   background-size: 100%;
-  opacity: 7%;
+  opacity: .7;
 }
 
 h1 {
   text-align: center;
   font-size: 60px;
   color: #9292b9;
-  width: 91%;
+  width: 100%;
   margin-top: 50px;
 }
 .main {
