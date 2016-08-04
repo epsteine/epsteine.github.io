@@ -1,48 +1,21 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  background-color: #adeaea;
   font-family: 'Quicksand', sans-serif;
   color: white;
 }
 
-.background-sky {
-  height: 100%;
-  width: 100%;
-  /*position: absolute;*/
-  /*z-index: 1;*/
+.landing-page {
+  background-image: url("https://unsplash.com/search/pineapples?photo=kjTQwE-Q50M");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.section {
-  height: 500px;
-}
-
-
-.fa-cloud {
-  display: inline-block;
-  padding: 50px;
-
-}
-
-.one {
+.left-block {
   float: left;
 }
 
-.two {
-  float: right;
-}
-
-
-p.main-text {
-  text-align: center;
-  font-size: 50px;
-  padding: 0 20px;
-  padding-top: 200px;
-
-}
-
-img.cn-tower {
-  height: 500px;
-  width: 300px;
-  float: right;
+.name {
+  font-size: 30px;
+  font-weight: bold;
 }
