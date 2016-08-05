@@ -1,14 +1,14 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  font-family: 'Quicksand', sans-serif;
-  color: black;
+  font-family: 'Poppins', sans-serif;
 }
 
-.landing-page {
-  background-image: url("https://unsplash.com/search/pineapples?photo=kjTQwE-Q50M");
+body {
+  background-image: url(".git/images/pineapples.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  position: fixed;
 }
 
 .left-block {
@@ -16,6 +16,36 @@
 }
 
 .name {
-  font-size: 30px;
+  font-size: 100px;
   font-weight: bold;
+  margin-top: 150px;
+  line-height: 100px;
+  margin-left: 30px;
+  color: white;
+}
+
+.job {
+  font-size: 100px;
+  font-weight: bold;
+  position: relative;
+  line-height: 100px;
+  margin-left: 30px;
+  color: yellow;
+}
+
+.right-block {
+  float: right;
+  margin-left: 130px;
+  margin-top: 150px;
+}
+.links {
+  text-decoration: none;
+  background-color: rgba(255,255,255, .1);
+  border:3px solid white;
+  display: block;
+  font-size:25px;
+  /*font-weight: lighter;*/
+  color: white;
+  padding:1px 30px;
+  text-align: center;
 }
