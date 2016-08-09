@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: url("/images/pineapples.jpg");
+  background-image: url("pineapples.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   position: fixed;
@@ -13,6 +13,7 @@ body {
 
 .left-block {
   float: left;
+  height: 600px;
 }
 
 .name {
@@ -33,6 +34,18 @@ body {
   color: yellow;
 }
 
+.coming-soon {
+  font-size: 50px;
+  position: relative;
+  line-height: 50px;
+  color: white;
+  text-align: center;
+}
+
+
+
+
+
 .right-block {
   float: right;
   margin-left: 130px;
@@ -44,8 +57,17 @@ body {
   border:3px solid white;
   display: block;
   font-size:25px;
-  /*font-weight: lighter;*/
   color: white;
   padding:1px 30px;
   text-align: center;
+}
+
+.project-div {
+  height: 600px;
+  display: inline-block;
+
+}
+.project {
+  color: white;
+  font-size: 20px;
 }
